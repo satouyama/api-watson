@@ -18,7 +18,7 @@
  * https://sailsjs.com/support
  */
 
-var PRODUCTION_CONFIG = require('./production');
+var PRODUCTION_CONFIG = require('./development');
 //--------------------------------------------------------------------------
 // /\  Start with your production config, even if it's just a guess for now,
 // ||  then configure your staging environment afterwards.
@@ -41,6 +41,7 @@ module.exports = Object.assign({}, PRODUCTION_CONFIG, {
 
     onlyAllowOrigins: [
       'http://localhost:1337',
+      'https://api-voicechat.herokuapp.com/'
       // 'https://example-staging.herokuapp.com',
       // 'http://example-staging.herokuapp.com',
       // 'https://staging.example.com',
