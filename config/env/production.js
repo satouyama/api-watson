@@ -21,6 +21,14 @@
 
 module.exports = {
 
+  hookTimeout               : 60000,
+  VERSION                   : 'v2',
+  VERSION_DATE              : "2018-09-20",
+
+  CONVERSATION_USERNAME     : "b41326bd-8e10-436f-9656-6fd8c349fef2",
+	CONVERSATION_PASSWORD     : "exzZi1p3OlsA",
+	CONVERSATION_URL          : "https://gateway.watsonplatform.net/conversation/api",
+
 
   /**************************************************************************
   *                                                                         *
@@ -72,6 +80,8 @@ module.exports = {
       ****************************************************************************/
       // ssl: true,
 
+      adapter: 'sails-mongo',
+      url: 'mongodb://satouyama:willxy23@ds153495.mlab.com:53495/voicechat'
     },
 
   },
@@ -90,7 +100,26 @@ module.exports = {
     * https://sailsjs.com/docs/concepts/models-and-orm/model-settings#?migrate *
     *                                                                          *
     ***************************************************************************/
+    schema: true,
     migrate: 'safe',
+
+    attributes: {
+      createdAt: { type: 'number', autoCreatedAt: true, },
+      updatedAt: { type: 'number', autoUpdatedAt: true, },
+      id: { type: 'string', columnName: '_id' }
+      //id: { type: 'number', autoIncrement: true, },
+      //--------------------------------------------------------------------------
+      //  /\   Using MongoDB?
+      //  ||   Replace `id` above with this instead:
+      //
+      // ```
+      // id: { type: 'string', columnName: '_id' },
+      // ```
+      //--------------------------------------------------------------------------
+    },
+    dataEncryptionKeys: {
+      default: 'SjgOjWqcumxD2M+GjccjDhsL/ujDYeopwMVBRRnc6II='
+    },
 
     /***************************************************************************
     *                                                                          *
@@ -101,7 +130,7 @@ module.exports = {
     * choose to keep this enabled.)                                            *
     *                                                                          *
     ***************************************************************************/
-    // cascadeOnDestroy: false,
+     //cascadeOnDestroy: false,
 
   },
 
@@ -147,11 +176,15 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    cors: {
-      // allowOrigins: [
-      //   'https://example.com',
-      // ]
-    },
+   cors: {
+    allRoutes: true,
+    allowOrigins: '*',
+    allowCredentials: false,
+     allowRequestMethods: 'GET, POST, PUT, DELETE, OPTIONS, HEAD',
+     allowResponseHeaders: 'content-type, authorization',
+  },
+
+   csrf: false
 
   },
 
@@ -220,11 +253,14 @@ module.exports = {
     * https://sailsjs.com/config/session#?the-session-id-cookie                *
     *                                                                          *
     ***************************************************************************/
-    cookie: {
-      // secure: true,
-      maxAge: 24 * 60 * 60 * 1000,  // 24 hours
-    },
 
+   
+   cookie: {
+     // secure: true,
+     maxAge: 24 * 60 * 60 * 1000,  // 24 hours
+    },
+    secret: '579f09768368856de8fe98cbac674a1e',
+    
   },
 
 
@@ -250,10 +286,7 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    // onlyAllowOrigins: [
-    //   'https://example.com',
-    //   'https://staging.example.com',
-    // ],
+     onlyAllowOrigins: '*',
 
 
     /***************************************************************************
@@ -337,7 +370,7 @@ module.exports = {
   * this, just try deploying without setting it and see if it works.)       *
   *                                                                         *
   ***************************************************************************/
-  // port: 80,
+  port: 8080,
 
 
 
@@ -371,8 +404,8 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    baseUrl: 'https://example.com',
-    internalEmailAddress: 'support@example.com',
+    baseUrl: 'https://api-voicechat.herokuapp.com/',
+    // internalEmailAddress: 'support@example.com',
 
     // mailgunDomain: 'mg.example.com',
     // mailgunSecret: 'key-prod_fake_bd32301385130a0bafe030c',
@@ -394,3 +427,4 @@ module.exports = {
 
 
 };
+
