@@ -1,0 +1,3517 @@
+{
+  "name": "Estruturantes - INOVA - Base",
+  "intents": [
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "tudo bem"
+        },
+        {
+          "text": "de boa"
+        },
+        {
+          "text": "tudo bão"
+        },
+        {
+          "text": "tudo bem?"
+        },
+        {
+          "text": "consigo resolver tudo por aqui"
+        },
+        {
+          "text": "como vai?"
+        },
+        {
+          "text": "como está?"
+        },
+        {
+          "text": "tudo bom"
+        },
+        {
+          "text": "tudo de boah"
+        },
+        {
+          "text": "posso resolver tudo por aqui"
+        }
+      ]
+    },
+    {
+      "intent": "systemsInformation",
+      "examples": [
+        {
+          "text": "como vc se chama"
+        },
+        {
+          "text": "qual a sua idade?"
+        },
+        {
+          "text": "voce tem pai?"
+        },
+        {
+          "text": "quem é você?"
+        },
+        {
+          "text": "porque seu nome é beta?"
+        },
+        {
+          "text": "me fale sobre você"
+        },
+        {
+          "text": "como você esta?"
+        },
+        {
+          "text": "vc tem pai"
+        },
+        {
+          "text": "qual o nome do seu pai"
+        },
+        {
+          "text": "quem é seu pai"
+        },
+        {
+          "text": "qual o seu nome?"
+        },
+        {
+          "text": "o que acha de voce como"
+        },
+        {
+          "text": "qual a cor dos seus olhos?"
+        },
+        {
+          "text": "o que acha de voce"
+        },
+        {
+          "text": "como você está?"
+        },
+        {
+          "text": "quantos anos você tem"
+        }
+      ]
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "voce pode me ajudar"
+        },
+        {
+          "text": "como usar"
+        },
+        {
+          "text": "ajuda"
+        },
+        {
+          "text": "ajudar"
+        },
+        {
+          "text": "quais serviços tem para abrir"
+        },
+        {
+          "text": "help"
+        },
+        {
+          "text": "como uso esse chatbot"
+        },
+        {
+          "text": "vc pode me ajudar"
+        },
+        {
+          "text": "preciso de ajuda"
+        },
+        {
+          "text": "Quais solicitações posso abrir"
+        }
+      ]
+    },
+    {
+      "intent": "clima",
+      "examples": [
+        {
+          "text": "quero saber do clima em brasilia"
+        },
+        {
+          "text": "como está a temperatura do tempo de brasilia"
+        },
+        {
+          "text": "como está o tempo hj"
+        },
+        {
+          "text": "quantos graus está hoje"
+        },
+        {
+          "text": "sol o dia todo"
+        },
+        {
+          "text": "clima chuvoso"
+        },
+        {
+          "text": "como está o clima"
+        },
+        {
+          "text": "tempo de brasilia como está"
+        },
+        {
+          "text": "teremos chuva hj"
+        },
+        {
+          "text": "vai chover hoje"
+        },
+        {
+          "text": "dia de sol"
+        }
+      ]
+    },
+    {
+      "intent": "difamacao",
+      "examples": [
+        {
+          "text": "nao sabe"
+        },
+        {
+          "text": "você é petista?"
+        },
+        {
+          "text": "aecio cheira pó"
+        },
+        {
+          "text": "fora presidente temer"
+        },
+        {
+          "text": "primeiramente fora temer"
+        },
+        {
+          "text": "putinha"
+        },
+        {
+          "text": "muito boa vc"
+        },
+        {
+          "text": "rapariga"
+        },
+        {
+          "text": "vc é gata"
+        },
+        {
+          "text": "ustiça com o lula"
+        },
+        {
+          "text": "qual o seu partido político?"
+        },
+        {
+          "text": "horrorosa"
+        },
+        {
+          "text": "vagabunda"
+        },
+        {
+          "text": "Que time você torce?"
+        },
+        {
+          "text": "sua puta"
+        },
+        {
+          "text": "vc é estupida"
+        },
+        {
+          "text": "#foratemer"
+        },
+        {
+          "text": "ridicula"
+        },
+        {
+          "text": "feiosa"
+        },
+        {
+          "text": "temmer"
+        },
+        {
+          "text": "bolsonaro 2018"
+        },
+        {
+          "text": "bolsonaro presidente"
+        },
+        {
+          "text": "vc é burra"
+        },
+        {
+          "text": "luna cadeia"
+        },
+        {
+          "text": "hoohohohohoh"
+        },
+        {
+          "text": "hihihihihihihih"
+        },
+        {
+          "text": "hehehe"
+        },
+        {
+          "text": "hahahahahahahahahahaha"
+        },
+        {
+          "text": "hahahahahaha"
+        },
+        {
+          "text": "foda-se"
+        },
+        {
+          "text": "vc é idiota"
+        },
+        {
+          "text": "hahaha"
+        },
+        {
+          "text": "qual time vc torçe"
+        },
+        {
+          "text": "fora presidente"
+        },
+        {
+          "text": "kakakakaka"
+        },
+        {
+          "text": "haha"
+        },
+        {
+          "text": "hahahahaha"
+        },
+        {
+          "text": "lula nao pode ta preso"
+        },
+        {
+          "text": "mouro nao sabe de nada"
+        },
+        {
+          "text": "vc é chata"
+        },
+        {
+          "text": "vadia"
+        },
+        {
+          "text": "safada"
+        },
+        {
+          "text": "vc é ignorante"
+        },
+        {
+          "text": "vc é fera"
+        },
+        {
+          "text": "vc é feia"
+        },
+        {
+          "text": "lula solto"
+        },
+        {
+          "text": "fora dilma"
+        },
+        {
+          "text": "vai se fuder"
+        },
+        {
+          "text": "vc é horrivel"
+        },
+        {
+          "text": "hahahahahahaha"
+        },
+        {
+          "text": "fora temer"
+        },
+        {
+          "text": "piranha"
+        },
+        {
+          "text": "você pirou?"
+        },
+        {
+          "text": "vai tomar no cu"
+        },
+        {
+          "text": "foda"
+        },
+        {
+          "text": "Sergio mouro seu burro idiota"
+        },
+        {
+          "text": "que ruim isso aqui"
+        },
+        {
+          "text": "caralho"
+        },
+        {
+          "text": "nao gosto de vc"
+        },
+        {
+          "text": "eduardo cunha"
+        },
+        {
+          "text": "você é feia"
+        },
+        {
+          "text": "não sabe"
+        }
+      ]
+    },
+    {
+      "intent": "obrigado",
+      "examples": [
+        {
+          "text": "ajudou muito"
+        },
+        {
+          "text": "grata"
+        },
+        {
+          "text": "grato"
+        },
+        {
+          "text": "obrigado"
+        },
+        {
+          "text": "muito obrigado"
+        },
+        {
+          "text": "agora sim"
+        },
+        {
+          "text": "era isso mesmo"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "agradecido"
+        },
+        {
+          "text": "agradeço"
+        },
+        {
+          "text": "ok, obrigado"
+        },
+        {
+          "text": "vamos la"
+        },
+        {
+          "text": "muito agradecido"
+        },
+        {
+          "text": "vlw, ajudou demais"
+        },
+        {
+          "text": "otimo"
+        },
+        {
+          "text": "valeu"
+        },
+        {
+          "text": "isso mesmo"
+        }
+      ]
+    },
+    {
+      "intent": "dontKnow",
+      "examples": [
+        {
+          "text": "não me explicou"
+        },
+        {
+          "text": "mais ou menos"
+        },
+        {
+          "text": "nao foi isso que perguntei"
+        },
+        {
+          "text": "você não consegue"
+        },
+        {
+          "text": "você não sabe"
+        },
+        {
+          "text": "você não é capaz"
+        },
+        {
+          "text": "você não entende"
+        },
+        {
+          "text": "não é isso"
+        },
+        {
+          "text": "não me ajudou"
+        },
+        {
+          "text": "Você não responde"
+        }
+      ],
+      "description": "Não há entendimento"
+    },
+    {
+      "intent": "dontWant",
+      "examples": [
+        {
+          "text": "kkkkkkkkkk"
+        },
+        {
+          "text": "não quero abrir chamado"
+        },
+        {
+          "text": "eu não quero fazer"
+        },
+        {
+          "text": "eu não quero"
+        },
+        {
+          "text": "não quero mais"
+        },
+        {
+          "text": "em nada"
+        },
+        {
+          "text": "nao é isso"
+        },
+        {
+          "text": "não quero saber"
+        },
+        {
+          "text": "nao preciso mais da sua ajuda"
+        },
+        {
+          "text": "nao quero mais abrir a solicitação"
+        },
+        {
+          "text": "não quero abrir chamado mais"
+        },
+        {
+          "text": "então"
+        },
+        {
+          "text": "hahahahahha"
+        },
+        {
+          "text": "não quero mais abrir o serviço"
+        },
+        {
+          "text": "não quero saber disso agora"
+        }
+      ]
+    },
+    {
+      "intent": "elogios",
+      "examples": [
+        {
+          "text": "voce é top"
+        },
+        {
+          "text": "voce é legal"
+        },
+        {
+          "text": "excelente"
+        },
+        {
+          "text": "muito bom"
+        },
+        {
+          "text": "ótimo"
+        },
+        {
+          "text": "gostei"
+        },
+        {
+          "text": "vc é inteligente"
+        },
+        {
+          "text": "vc é elegante"
+        },
+        {
+          "text": "voce é linda"
+        },
+        {
+          "text": "vc é top"
+        },
+        {
+          "text": "vc é simpativa"
+        },
+        {
+          "text": "vc é muito boa"
+        },
+        {
+          "text": "voce é inteligente"
+        },
+        {
+          "text": "eu te amo"
+        },
+        {
+          "text": "vc é maravilhosa"
+        },
+        {
+          "text": "você é bonita"
+        },
+        {
+          "text": "voce é simpatica"
+        },
+        {
+          "text": "gostosa"
+        },
+        {
+          "text": "voce é elegante"
+        },
+        {
+          "text": "vc é linda"
+        },
+        {
+          "text": "vc é legal"
+        },
+        {
+          "text": "bonito seu cabelo"
+        }
+      ]
+    },
+    {
+      "intent": "okay",
+      "examples": [
+        {
+          "text": "ok"
+        },
+        {
+          "text": "funcionou perfeitamente"
+        },
+        {
+          "text": "tudo funcionou direito"
+        },
+        {
+          "text": "opa"
+        },
+        {
+          "text": "isso"
+        },
+        {
+          "text": "beleza"
+        },
+        {
+          "text": "Deu certo"
+        },
+        {
+          "text": "A base funcionou"
+        },
+        {
+          "text": "obrigada, deu certo"
+        },
+        {
+          "text": "oba"
+        },
+        {
+          "text": "ah ta"
+        },
+        {
+          "text": "calma"
+        },
+        {
+          "text": "blz"
+        }
+      ]
+    },
+    {
+      "intent": "NaoEntendi",
+      "examples": [
+        {
+          "text": "aiai"
+        },
+        {
+          "text": "hein?"
+        },
+        {
+          "text": "o que mais eu preciso saber sobre esse serviço?"
+        },
+        {
+          "text": "humm"
+        },
+        {
+          "text": "teste"
+        },
+        {
+          "text": "nao estou entendendo voce"
+        },
+        {
+          "text": "obrigado, mas não resolveu minha demanda"
+        },
+        {
+          "text": "pode me ajudar"
+        },
+        {
+          "text": "como assim?"
+        },
+        {
+          "text": "tem como me dar uma informação mais simples?"
+        },
+        {
+          "text": "nao é isso que eu quero"
+        },
+        {
+          "text": "pode ser mais claro?"
+        },
+        {
+          "text": "nao entendi o que falou"
+        },
+        {
+          "text": "mas ja?"
+        },
+        {
+          "text": "sei lá"
+        },
+        {
+          "text": "ta mas perai ainda nem perguntei"
+        },
+        {
+          "text": "vc nao esta me ajudando"
+        },
+        {
+          "text": "acho que vc nao me entendeu"
+        },
+        {
+          "text": "aff"
+        },
+        {
+          "text": "perai"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "Agradeço a atenção;"
+        },
+        {
+          "text": "finalizar"
+        },
+        {
+          "text": "tchau Beta"
+        },
+        {
+          "text": "fim"
+        },
+        {
+          "text": "até outra hora"
+        },
+        {
+          "text": "até depois"
+        },
+        {
+          "text": "fechar"
+        },
+        {
+          "text": "encerrar"
+        },
+        {
+          "text": "Deixe pra lá."
+        },
+        {
+          "text": "saída"
+        },
+        {
+          "text": "adeus"
+        },
+        {
+          "text": "Sair"
+        },
+        {
+          "text": "até logo"
+        },
+        {
+          "text": "cansei"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "tchau tchau"
+        },
+        {
+          "text": "exit"
+        },
+        {
+          "text": "terminar"
+        },
+        {
+          "text": "tchau"
+        },
+        {
+          "text": "tcheu"
+        },
+        {
+          "text": "até mais"
+        },
+        {
+          "text": "sayonara"
+        },
+        {
+          "text": "bye bye"
+        }
+      ]
+    },
+    {
+      "intent": "dateTime",
+      "examples": [
+        {
+          "text": "data de hoje"
+        },
+        {
+          "text": "Que ano estamos"
+        },
+        {
+          "text": "que dia é hoje"
+        },
+        {
+          "text": "quantas horas são"
+        },
+        {
+          "text": "que mês estamos"
+        },
+        {
+          "text": "que horas são"
+        },
+        {
+          "text": "que dia é hj"
+        },
+        {
+          "text": "qual ano estamos"
+        },
+        {
+          "text": "what time is it"
+        },
+        {
+          "text": "hoje é que dia"
+        },
+        {
+          "text": "dia de hoje"
+        },
+        {
+          "text": "que dia"
+        },
+        {
+          "text": "qual é a data de hoje"
+        },
+        {
+          "text": "que hora é"
+        },
+        {
+          "text": "qual mês estamos"
+        },
+        {
+          "text": "qual ano atual"
+        }
+      ]
+    },
+    {
+      "intent": "naoEncontrei",
+      "examples": [
+        {
+          "text": "como faço com a patente?"
+        },
+        {
+          "text": "Não acho que isto está certo"
+        },
+        {
+          "text": "não encontrei o que eu precisava"
+        },
+        {
+          "text": "obrigado, mas não resolveu minha demanda"
+        },
+        {
+          "text": "Você não conseguiu me atender"
+        },
+        {
+          "text": "Sua informação não foi suficiente"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tempo",
+      "examples": [
+        {
+          "text": "esta chovendo"
+        },
+        {
+          "text": "como esta o clima"
+        },
+        {
+          "text": "como esta o dia hoje"
+        },
+        {
+          "text": "quero saber do tempo hoje"
+        },
+        {
+          "text": "como está o tempo hj"
+        },
+        {
+          "text": "o dia está ensolarado"
+        },
+        {
+          "text": "como está o tempo"
+        },
+        {
+          "text": "esta fazendo sol"
+        }
+      ]
+    },
+    {
+      "intent": "Procura",
+      "examples": [
+        {
+          "text": "aonde consigo"
+        },
+        {
+          "text": "me responde"
+        },
+        {
+          "text": "Cade?"
+        },
+        {
+          "text": "Onde acho?"
+        },
+        {
+          "text": "Preciso encontrar outro serviço"
+        },
+        {
+          "text": "Onde encontro?"
+        },
+        {
+          "text": "Quero outro serviço"
+        }
+      ],
+      "description": "Cade"
+    },
+    {
+      "intent": "hiThere",
+      "examples": [
+        {
+          "text": "oiii"
+        },
+        {
+          "text": "de boa"
+        },
+        {
+          "text": "bom dia, tudo bem?"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "oieeee"
+        },
+        {
+          "text": "oii"
+        },
+        {
+          "text": "oieee"
+        },
+        {
+          "text": "ola"
+        },
+        {
+          "text": "fala ai"
+        },
+        {
+          "text": "oie"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "eaew"
+        },
+        {
+          "text": "eai"
+        },
+        {
+          "text": "olá"
+        },
+        {
+          "text": "bom dia"
+        },
+        {
+          "text": "oi"
+        },
+        {
+          "text": "oiiiiiiiiii"
+        },
+        {
+          "text": "boa noite"
+        },
+        {
+          "text": "boa tarde"
+        }
+      ]
+    },
+    {
+      "intent": "talkTechnican",
+      "examples": [
+        {
+          "text": "fiquei com duvida, posso falar com alguem"
+        },
+        {
+          "text": "aonde eu ligo?"
+        },
+        {
+          "text": "Para mais informações ou dúvidas sobre este serviço, onde entro em contato?"
+        },
+        {
+          "text": "to querendo falar com alguem"
+        },
+        {
+          "text": "onde encontro o telefone para falar?"
+        },
+        {
+          "text": "quero falar com um técnico"
+        },
+        {
+          "text": "quero falar com um ser humano"
+        },
+        {
+          "text": "não tem telefone"
+        },
+        {
+          "text": "quero falar com uma pessoa"
+        },
+        {
+          "text": "tem algum telefone?"
+        },
+        {
+          "text": "como falar com uma pessoal pelo telefone"
+        },
+        {
+          "text": "preciso de um serviço"
+        },
+        {
+          "text": "Quero um atendimento Técnico"
+        },
+        {
+          "text": "central de atendimento*"
+        },
+        {
+          "text": "como falar com um atendente"
+        },
+        {
+          "text": "nao quero mais falar com vc preciso falar com uma pessoa"
+        },
+        {
+          "text": "aonde preciso ir?"
+        },
+        {
+          "text": "fiquei com duvida, queria falar com uma pessoa no telefone"
+        },
+        {
+          "text": "telefone de contato"
+        },
+        {
+          "text": "como faço para falar com uma pessoa"
+        },
+        {
+          "text": "como falar com um técnico"
+        },
+        {
+          "text": "quero falar com um atendente"
+        },
+        {
+          "text": "Gostaria de falar com alguem"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "perguntas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "o que posso encontrar",
+          "synonyms": [
+            "onde encontro",
+            "como encontrar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Quais benefícios",
+          "synonyms": [
+            "Quais is benefícios"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "faz parte",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "O que ele oferece?",
+          "synonyms": [
+            "o que pode me oferecer",
+            "o que ele oferece",
+            "o que vai me oferecer",
+            "o que ele me oferece"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Por que é útil?",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Como faço para participar",
+          "synonyms": [
+            "como fazer",
+            "como me cadastrar",
+            "como faço",
+            "como eu faço"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "onde posso",
+          "synonyms": [
+            "onde eu posso"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Por quais meios",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "O que ele me oferece",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Como posso Obter?",
+          "synonyms": [
+            "como posso obter",
+            "como posso ter",
+            "como faço para ter"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Outras informações",
+          "synonyms": [
+            "informações",
+            "aonde preciso ir",
+            "aonde posso ligar",
+            "tem algum telefone",
+            "aonde tenho que ir",
+            "aonde vou",
+            "me diz mais",
+            "diga mais",
+            "fale mais",
+            "fala mais",
+            "quem eu procuro",
+            "acompanhar o alistamento",
+            "acompanhamento do alistamento online",
+            "encontrar orientação"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "quais documentos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "onde eu vou",
+          "synonyms": [
+            "onde devo ir",
+            "onde preciso ir"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Etapas para a realização",
+          "synonyms": [
+            "Quais as etapas",
+            "Qual a etapa",
+            "Quais são as etapas",
+            "etapas",
+            "Que etapas",
+            "documentação",
+            "documentos",
+            "canais",
+            "canais de",
+            "canais de prestação",
+            "Cartão de Confirmação",
+            "resultado da prova",
+            "Locais de prova",
+            "cartão de confirmação da inscrição",
+            "Quais os critérios",
+            "cadastrar no site",
+            "quais documentos",
+            "quais requisitos",
+            "que requisito",
+            "como me alistar",
+            "regras",
+            "calendario",
+            "como realizar",
+            "quais os requisitos",
+            "como saco meu",
+            "como sacar",
+            "o que é necessario",
+            "é necessário",
+            "passo a passo",
+            "presencial",
+            "online",
+            "caminho",
+            "o que eu preciso fazer",
+            "o que preciso fazer",
+            "como tiro",
+            "quero me inscrever",
+            "fazer minha inscrição",
+            "como atualizar os dados",
+            "atualizar informações",
+            "atualização de dados",
+            "participo",
+            "como funciona",
+            "como uso",
+            "preciso fazer",
+            "o que eu preciso",
+            "pode usar",
+            "tenho que ir",
+            "preciso ir",
+            "devo ir",
+            "preecher",
+            "bandeira",
+            "como agendar",
+            "icones para inscrição",
+            "como faço?",
+            "me inscrever",
+            "qual status",
+            "onde eu faço"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "quem emite",
+          "synonyms": [
+            "quem faz a emissão",
+            "quem pode emitir"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Como funciona",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Quanto tempo leva",
+          "synonyms": [
+            "qual o tempo que leva",
+            "quantos dias",
+            "demora",
+            "prazo",
+            "quanto tempo",
+            "qual o tempo",
+            "prazo de espera",
+            "qual a data",
+            "Precisa esperar muito",
+            "sai na hora",
+            "quanto tempi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Quais servicos sao oferecidos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "O que é",
+          "synonyms": [
+            "o que significa",
+            "Objetivo",
+            "para que serve",
+            "serve pra que",
+            "explica",
+            "explique",
+            "explicação",
+            "mesma coisa",
+            "aparece",
+            "Pra que serve isso",
+            "para oque serve",
+            "o que quer dizer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Por quem foi criado",
+          "synonyms": [
+            "quem criou",
+            "quem foi o criador"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "O que sao os servicos publicos digitais",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "quanto tempo vale",
+          "synonyms": [
+            "qual a validade",
+            "prazo de validade",
+            "qual o prazo de espera"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Quem pode utilizar",
+          "synonyms": [
+            "quem usa",
+            "quem pode",
+            "quais condições",
+            "quais são as condições",
+            "qualquer pessoa",
+            "idade mínima",
+            "idade máxima",
+            "tenho direito",
+            "tem direito",
+            "posso usar",
+            "requisitos",
+            "pode tirar",
+            "Eu posso usar?",
+            "Quem pode usar",
+            "Tem que ter o quê pra usar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Legislação",
+          "synonyms": [
+            "edital",
+            "lei",
+            "regulamentação"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "qual órgão",
+          "synonyms": [
+            "Qual é o órgão",
+            "que órgão",
+            "qual órgão",
+            "Qual o órgão",
+            "dono",
+            "responsável pelo serviço",
+            "pertence o serviço"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tempo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "mês",
+          "synonyms": [
+            "meses",
+            "month"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hora",
+          "synonyms": [
+            "horas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "segundo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bimestre",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "semestre",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "até quando",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ano",
+          "synonyms": [
+            "anos",
+            "year"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "trimestre",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "minuto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dia",
+          "synonyms": [
+            "dias",
+            "day"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "contato",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "telefone",
+          "synonyms": [
+            "numedo telefone"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "numero de contato",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ouvidoria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "email",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "interjeições",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Suspensão",
+          "synonyms": [
+            "Alto lá",
+            "Pense bem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Impaciência",
+          "synonyms": [
+            "Arre",
+            "Hum",
+            "Puxa",
+            "Raios",
+            "Hem",
+            "Diabo",
+            "Pô",
+            "Argh",
+            "Mundo vasto mundo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Aversão",
+          "synonyms": [
+            "Droga",
+            "Putz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Alegria",
+          "synonyms": [
+            "Ah",
+            "Oba",
+            "Viva",
+            "Uhu",
+            "Que bom",
+            "upi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Desejo",
+          "synonyms": [
+            "Oxalá",
+            "Tomara",
+            "Se Deus quiser"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Despedida",
+          "synonyms": [
+            "Bai Bai",
+            "By By",
+            "tchau",
+            "Adeus",
+            "Até logo",
+            "Até amanhã"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Medo",
+          "synonyms": [
+            "Cruzes",
+            "Credo",
+            "Macacos me mordam",
+            "Pelas barbas do profeta",
+            "Jesus",
+            "Que medo",
+            "Jesus Maria e José",
+            "Barbaridade",
+            "Francamente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Advertência",
+          "synonyms": [
+            "Cuidado",
+            "Atenção"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Afugentamento",
+          "synonyms": [
+            "Xô",
+            "Fora",
+            "Passa",
+            "Vai-te embora",
+            "Sai",
+            "Roda",
+            "Cai fora",
+            "Vaza"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Espanto",
+          "synonyms": [
+            "oh!",
+            "Meu Deus!",
+            "Nossa!",
+            "Puxa!",
+            "Ah, sério?",
+            "uai",
+            "Sério?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Admiração",
+          "synonyms": [
+            "Que coisa",
+            "Ah",
+            "Chi",
+            "Ih",
+            "Oh",
+            "Uh",
+            "Uau",
+            "Caramba",
+            "Caraca",
+            "Puts",
+            "Gente",
+            "Céus",
+            "Uai",
+            "Ora",
+            "Ôrra",
+            "Que bom",
+            "Bravo",
+            "Ta poxa",
+            "Ta pouxa",
+            "ótimo",
+            "isso mesmo",
+            "agora sim",
+            "era isso mesmo",
+            "ok",
+            "isso"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Apelo",
+          "synonyms": [
+            "Socorro",
+            "Help"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cessação",
+          "synonyms": [
+            "Basta",
+            "Stop",
+            "Pare",
+            "Chega"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "saudacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "boa noite",
+          "synonyms": [
+            "boa noite cissa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "oi",
+          "synonyms": [
+            "hallo",
+            "hey",
+            "hay",
+            "oooiii",
+            "oooi",
+            "oiiiiii",
+            "oiii",
+            "oiee",
+            "eai",
+            "olá",
+            "ola cissa",
+            "ola",
+            "oi cissa",
+            "hi",
+            "oie",
+            "alou",
+            "alouu",
+            "alow",
+            "alô",
+            "alo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bom dia",
+          "synonyms": [
+            "bom dia cissa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "boa tarde",
+          "synonyms": [
+            "boa tarde cissa"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "dificuldade",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nao consigo",
+          "synonyms": [
+            "não consegui",
+            "não estou conseguindo",
+            "esta dificil",
+            "não está gerando",
+            "não está criando"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "AtributosPessoais",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "sexo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "corporais",
+          "synonyms": [
+            "olho",
+            "nariz",
+            "boca",
+            "cabelo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cor",
+          "synonyms": [
+            "cutis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nome",
+          "synonyms": [
+            "chama",
+            "Beta",
+            "quem é vc",
+            "quem é você"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "altura",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "SemEntender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nao entendi",
+          "synonyms": [
+            "nao entendo",
+            "nao estou entendendo",
+            "nao é isso que eu quero",
+            "nao foi isso que perguntei",
+            "você não está me ajudando",
+            "vc nao esta me ajudando"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ajudar",
+          "synonyms": [
+            "pode ajudar",
+            "me ajuda",
+            "estou com problemas",
+            "pode me explicar melhor"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "conjunções",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Explicativas",
+          "synonyms": [
+            "porque",
+            "porquanto",
+            "por que",
+            "assim"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "adquirir",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "adquirir",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "requerer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tirar",
+          "synonyms": [
+            "tira",
+            "tirado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pegar",
+          "synonyms": [
+            "pego",
+            "pega"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ok",
+          "synonyms": [
+            "okay"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tenho",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "de fato",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "si",
+            "claro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "of course"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "correto",
+          "synonyms": [
+            "certo",
+            "exato"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sure",
+          "synonyms": [
+            "sure!",
+            "com certeza"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "aham",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "custo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "boleto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "gratuito",
+          "synonyms": [
+            "grátis",
+            "zero oitocentos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fim lucrativo",
+          "synonyms": [
+            "lucrativo",
+            "lucro",
+            "fins lucrativos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "custo",
+          "synonyms": [
+            "quanto custa",
+            "pagar",
+            "pago",
+            "valor",
+            "preço",
+            "taxa"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "parcelamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "reparcelar",
+          "synonyms": [
+            "parcelar novamente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "parcelar",
+          "synonyms": [
+            "dividir"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nao agora",
+          "synonyms": [
+            "nao nesse momento",
+            "nao nao"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "claro que nao",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no thanks",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nao",
+          "synonyms": [
+            "não"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "etapas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Consultar Saldo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "isenção",
+          "synonyms": [
+            "izenção",
+            "izensão",
+            "isenssão",
+            "isento",
+            "senção",
+            "isencao"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "como proceder",
+          "synonyms": [
+            "procedimento"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Atualizar informações",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "online",
+          "synonyms": [
+            "on-line",
+            "onlaine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "inscrição",
+          "synonyms": [
+            "inscrever"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Receber valor da cota",
+          "synonyms": [
+            "valor da cota",
+            "procuração"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Consultar calendário de recebimento.",
+          "synonyms": [
+            "calendario",
+            "data"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Acessar o Portal PF",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "presencial",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nome",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "beta",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "badOrfine",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "tudo bem",
+          "synonyms": [
+            "tudo bem?",
+            "bem",
+            "bem e voce?",
+            "estou bem",
+            "estou muito bem, obrigado",
+            "eu estou bem",
+            "tudo bem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "blz",
+          "synonyms": [
+            "blz",
+            "bleza",
+            "beleza"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mal",
+          "synonyms": [
+            "eu estou mal",
+            "não estou bem",
+            "não estou muito bem",
+            "poderia estar melhor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "parentesco",
+          "synonyms": [
+            "pai",
+            "mãe",
+            "filho",
+            "irmão",
+            "amigos",
+            "tios",
+            "parentes",
+            "familia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "resolver tudo",
+          "synonyms": [
+            "posso resolver tudo",
+            "consigo resolver tudo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "como vc esta",
+          "synonyms": [
+            "como voce esta",
+            "como vai",
+            "como esta"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "solicitantes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Família de baixa renda",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Servidor Público",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Estrangeiros",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pessoa física",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Aposentado",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Herdeiro",
+          "synonyms": [
+            "herdeiro privado",
+            "herdeiro publico"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "homem",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Trabalhador da iniciativa privada",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cidadão",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mulher",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "homem que adota um filho",
+          "synonyms": [
+            "adotei um filho"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "homem que a cônjuge veio a falecer logo após o parto",
+          "synonyms": [
+            "homem que a companheira veio a falecer logo após o parto",
+            "minha mulher morreu"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Renovacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Renovacao",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "renovar",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Programa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bolsa família",
+          "synonyms": [
+            "programa bolsa família"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "parcialmente",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "parcialmente",
+          "synonyms": [
+            "mais ou menos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Comparacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Menor",
+          "synonyms": [
+            "menor que",
+            "menos que",
+            "abaixo de"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Maior",
+          "synonyms": [
+            "maior que",
+            "mais que",
+            "acima de"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "Original VERSION 2.5 RC1 - Ambiente de HOMOLOGAÇÃO",
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Agora são exatamente $hour."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "DateTime",
+      "context": {
+        "hour": "<? now().reformatDateTime('HH:mm:ss') ?>"
+      },
+      "metadata": {},
+      "conditions": " @tempo:hora",
+      "dialog_node": "node_5_1503517880678",
+      "previous_sibling": "node_4_1503517807542"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Estamos no mês de $mounth."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "DateTime",
+      "context": {
+        "mounth": "<? now().reformatDateTime('MMMM') ?>"
+      },
+      "metadata": {},
+      "conditions": "@tempo:mês",
+      "dialog_node": "node_3_1503517280023",
+      "previous_sibling": "node_2_1503517265814"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Estamos no ano $year."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "DateTime",
+      "context": {
+        "year": "<? now().reformatDateTime('YYYY') ?>"
+      },
+      "metadata": {},
+      "conditions": "@tempo:ano",
+      "dialog_node": "node_4_1503517807542",
+      "previous_sibling": "node_3_1503517280023"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hoje é $day."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "DateTime",
+      "context": {
+        "day": "<? now().reformatDateTime('dd/MM/yyyy') ?>"
+      },
+      "metadata": {},
+      "conditions": "@tempo:dia",
+      "dialog_node": "node_2_1503517265814"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$MSG_06"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Difamação",
+      "metadata": {},
+      "dialog_node": "node_2_1503508348987"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_2_1524329510949",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1524329261466"
+      },
+      "conditions": "@nao",
+      "dialog_node": "node_5_1524329640278"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<p align=\"justify\">Não entendi o que você quis dizer, poderia digitar novamente?</p>",
+            "<p align=\"justify\">Não entendi seu questionamento. Poderia por favor perguntar novamente?</p>",
+            "<p align=\"justify\">Por favor, digite <b>Ajuda</b> para que eu possa te oferecer opções do atendimento virtual.</p>"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_1_1482349306960",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "",
+      "dialog_node": "node_1_1501772744616"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Ainda sou bem jovem, estou em fase de aprendizado."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_255_1497638475311",
+      "metadata": {},
+      "conditions": "#systemsInformation && @tempo",
+      "dialog_node": "node_2_1501771307749",
+      "previous_sibling": "node_1_1501771307179"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sim, tudo bem! Estou aqui para ajudar a encontrar respostas para suas perguntas. Em que posso lhe ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_255_1497638475311",
+      "metadata": {},
+      "conditions": "@badOrfine:(tudo bem) || @badOrfine:(como vc esta)",
+      "dialog_node": "node_1_1501772359154",
+      "previous_sibling": "node_2_1501771307749"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Lamento, mas ainda não estou programada para responder este tipo de pergunta"
+          ]
+        }
+      },
+      "parent": "node_255_1497638475311",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_4_1524349778266",
+      "previous_sibling": "node_3_1522343855981"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Eu sou de um mundo virtual, então aqui não temos nenhum vínculo ou grau de parentesco."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_255_1497638475311",
+      "metadata": {},
+      "conditions": "#systemsInformation && @badOrfine:parentesco",
+      "dialog_node": "node_1_1507653971045",
+      "previous_sibling": "node_1_1503518951836"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "A versão Beta de um produto ou serviço é aquela que está em fase de desenvolvimento e testes. Por isso me batizaram de Beta: estou em constante aprendizado sobre os mais de 1.700 serviços que você encontrará aqui e toda vez que você me pergunta algo eu fico melhor no meu trabalho. E então? Como posso ajudar?"
+          ]
+        }
+      },
+      "parent": "node_255_1497638475311",
+      "metadata": {},
+      "conditions": "@badOrfine:(porque seu nome é beta) || not @AtributosPessoais:nome",
+      "dialog_node": "node_3_1522343855981",
+      "previous_sibling": "node_1_1507653971045"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Beleza! Estou aqui para ajudar a encontrar respostas para suas perguntas. Em que posso lhe ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_255_1497638475311",
+      "metadata": {},
+      "conditions": "@badOrfine:blz",
+      "dialog_node": "node_1_1503518951836",
+      "previous_sibling": "node_1_1501772359154"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Meu nome é Beta, sou a assistente virtual do Sistema Estruturante INOVA. Estou aqui para aprender e ajudar. Mas em que posso ser útil?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_255_1497638475311",
+      "metadata": {},
+      "conditions": "@AtributosPessoais:nome && not @badOrfine:(porque seu nome é beta) && not @badOrfine:parentesco",
+      "dialog_node": "node_1_1501771307179"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<p>Que bom! <p>Você gostaria de finalizar o atendimento?</p> <p>     <p style=\"text-align: center\">         <button tabindex=\"0\" data-value-message=\"Sim\" type=\"button\" style=\"font-size: 10px\" class=\"data-event-click q-btn inline relative-position q-btn-item non-selectable q-btn-rectangle q-btn-outline q-focusable       q-hoverable text-primary q-btn-rounded\">             <div class=\"q-focus-helper\"></div>             <div class=\"q-btn-inner row col items-center justify-center\">                 <div>Sim</div>             </div>         </button>     </p>     <p style=\"text-align: center\">         <button tabindex=\"0\" data-value-message=\"Não\" type=\"button\" style=\"font-size: 10px\" class=\"data-event-click q-btn inline relative-position q-btn-item non-selectable q-btn-rectangle q-btn-outline q-focusable       q-hoverable text-primary q-btn-rounded\">             <div class=\"q-focus-helper\"></div>             <div class=\"q-btn-inner row col items-center justify-center\">                 <div>Não</div>             </div>         </button>     </p> </p>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Finalizar atendimento",
+      "metadata": {},
+      "conditions": "@interjeições:Admiração || @interjeições:Advertência",
+      "dialog_node": "node_1_1524329509669",
+      "previous_sibling": "node_6_1501607120872"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "Finalizar atendimento",
+      "metadata": {},
+      "conditions": "@sim",
+      "dialog_node": "node_8_1486399140569",
+      "previous_sibling": "node_2_1524329521860"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "Finalizar atendimento",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1486399158223"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_22_1524253886647",
+      "previous_sibling": "node_1_1525982810505"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<p>Você gostaria de finalizar o atendimento?</p> <p>     <p style=\"text-align: center\">         <button tabindex=\"0\" data-value-message=\"Sim\" type=\"button\" style=\"font-size: 10px\" class=\"data-event-click q-btn inline relative-position q-btn-item non-selectable q-btn-rectangle q-btn-outline q-focusable       q-hoverable text-primary q-btn-rounded\">             <div class=\"q-focus-helper\"></div>             <div class=\"q-btn-inner row col items-center justify-center\">                 <div>Sim</div>             </div>         </button>     </p>     <p style=\"text-align: center\">         <button tabindex=\"0\" data-value-message=\"Não\" type=\"button\" style=\"font-size: 10px\" class=\"data-event-click q-btn inline relative-position q-btn-item non-selectable q-btn-rectangle q-btn-outline q-focusable       q-hoverable text-primary q-btn-rounded\">             <div class=\"q-focus-helper\"></div>             <div class=\"q-btn-inner row col items-center justify-center\">                 <div>Não</div>             </div>         </button>     </p> </p>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Finalizar atendimento",
+      "context": {},
+      "metadata": {},
+      "conditions": "not @interjeições",
+      "dialog_node": "node_6_1501607120872",
+      "previous_sibling": "node_10_1486399158223"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<p>Você gostaria de finalizar o atendimento?</p> <p>     <p style=\"text-align: center\">         <button tabindex=\"0\" data-value-message=\"Sim\" type=\"button\" style=\"font-size: 10px\" class=\"data-event-click q-btn inline relative-position q-btn-item non-selectable q-btn-rectangle q-btn-outline q-focusable       q-hoverable text-primary q-btn-rounded\">             <div class=\"q-focus-helper\"></div>             <div class=\"q-btn-inner row col items-center justify-center\">                 <div>Sim</div>             </div>         </button>     </p>     <p style=\"text-align: center\">         <button tabindex=\"0\" data-value-message=\"Não\" type=\"button\" style=\"font-size: 10px\" class=\"data-event-click q-btn inline relative-position q-btn-item non-selectable q-btn-rectangle q-btn-outline q-focusable       q-hoverable text-primary q-btn-rounded\">             <div class=\"q-focus-helper\"></div>             <div class=\"q-btn-inner row col items-center justify-center\">                 <div>Não</div>             </div>         </button>     </p> </p>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Finalizar atendimento",
+      "metadata": {},
+      "conditions": "@interjeições:Despedida",
+      "dialog_node": "node_2_1524329521860",
+      "previous_sibling": "node_1_1524329509669"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "Finalizar atendimento",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1524329261466"
+      },
+      "conditions": "#goodbye",
+      "dialog_node": "node_1_1525982810505",
+      "previous_sibling": "node_8_1486399140569"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Ok. Em que mais eu posso lhe ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Finalizar atendimento",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@nao",
+      "dialog_node": "node_10_1486399158223",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Vamos tentar mais uma vez? Você pode me explicar melhor o que procura?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1521207176703",
+      "metadata": {},
+      "conditions": "@nao",
+      "dialog_node": "node_5_1522333737065",
+      "previous_sibling": "node_3_1521827951710"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Claro, vamos tentar mais uma vez. Você pode me explicar melhor o que procura?"
+          ]
+        }
+      },
+      "parent": "node_1_1521207176703",
+      "metadata": {},
+      "conditions": "not @nao",
+      "dialog_node": "node_3_1521827951710"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<p> Olá, eu sou a Beta, assistente virtual do Governo Federal. Estou aqui para te ajudar a conhecer os serviços     públicos federais.</p> <p>     <button tabindex=\"0\" data-value-message=\"ENEM\" type=\"button\" style=\"font-size: 10px\" class=\"data-event-click q-btn inline relative-position q-btn-item non-selectable q-btn-rectangle q-btn-outline q-focusable q-hoverable text-primary q-btn-rounded\">         <div class=\"q-focus-helper\"></div>         <div class=\"q-btn-inner row col items-center justify-center\">             <div>ENEM</div>         </div>     </button> </p> <p>     <button tabindex=\"0\" data-value-message=\"Alistar-se no Serviço Militar Obrigatório - SMO\" type=\"button\" style=\"font-size: 10px\"         class=\"data-event-click q-btn inline relative-position q-btn-item non-selectable q-btn-rectangle q-btn-outline q-focusable q-hoverable text-primary q-btn-rounded\">         <div class=\"q-focus-helper\"></div>         <div class=\"q-btn-inner row col items-center justify-center\">             <div>Alistar-se no Serviço Militar Obrigatório - SMO</div>         </div>     </button> </p> <p>     <button tabindex=\"0\" data-value-message=\"Obter isenção de impostos na compra de veículos\" type=\"button\" style=\"font-size: 10px\"         class=\"data-event-click q-btn inline relative-position q-btn-item non-selectable q-btn-rectangle q-btn-outline q-focusable q-hoverable text-primary q-btn-rounded\">         <div class=\"q-focus-helper\"></div>         <div class=\"q-btn-inner row col items-center justify-center\">             <div>Obter isenção de impostos na compra de veículos</div>         </div>     </button> </p> <p>     <button tabindex=\"0\" data-value-message=\"Obter bolsa de estudo do Programa Universidade para Todos – ProUni\" type=\"button\"         style=\"font-size: 10px\" class=\"data-event-click q-btn inline relative-position q-btn-item non-selectable q-btn-rectangle q-btn-outline q-focusable q-hoverable text-primary q-btn-rounded\">         <div class=\"q-focus-helper\"></div>         <div class=\"q-btn-inner row col items-center justify-center\">             <div>Obter bolsa de estudo do Programa Universidade para Todos – ProUni</div>         </div>     </button> </p> <p>     <button tabindex=\"0\" data-value-message=\"Brasil Cidadão\" type=\"button\" style=\"font-size: 10px\" class=\"data-event-click q-btn inline relative-position q-btn-item non-selectable q-btn-rectangle q-btn-outline q-focusable q-hoverable text-primary q-btn-rounded\">         <div class=\"q-focus-helper\"></div>         <div class=\"q-btn-inner row col items-center justify-center\">             <div>Brasil Cidadão</div>         </div>     </button> </p>"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_9_1501005947177",
+      "context": {
+        "MSG_01": "Vamos tentar mais uma vez? Você pode me explicar melhor o que procura?",
+        "MSG_02": "<p>Desculpe, estou em fase de aprendizagem. Vamos tentar mais uma vez, pode me explicar melhor o que procura?</p>",
+        "MSG_03": "Obrigada!",
+        "MSG_04": "Desculpe, mas ainda não consigo responder perguntas tão específicas. Em breve, conseguirei. Para que eu possa entender melhor o que procura, sugiro que descreva o serviço de forma resumida, por exemplo: Obter Salário-Maternidade, Obter auxílio-doença, Passaporte, ENEM, entre outros.",
+        "MSG_05": "Ok. Em que mais eu posso lhe ajudar?",
+        "MSG_06": "Lamento, mas não estou programada para responder expressões fora de contexto.",
+        "MSG_07": "Ok. Em que mais eu posso lhe ajudar?",
+        "conversation_start": "1"
+      },
+      "metadata": {},
+      "dialog_node": "node_1_1500760206882"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_8_1523903784277",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1486399158223"
+      },
+      "conditions": "@sim",
+      "dialog_node": "node_2_1524168114668",
+      "previous_sibling": "node_1_1524168026745"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_8_1523903784277",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1486399140569"
+      },
+      "conditions": "@nao",
+      "dialog_node": "node_1_1524168026745"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sei muitas coisas relacionadas a Central IT. Por favor digite ajuda e verifique os serviços disponíveis."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Perguntas Cissa",
+      "metadata": {},
+      "conditions": "input.text.find('\\bsabe')",
+      "dialog_node": "node_2_1505759198794",
+      "previous_sibling": "node_1_1505759015877"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Para os colaboradores que trabalham em regime de escala o dia trabalhado no feriado é compensado pela folga. Para os que trabalham 5x2 recebe o dia como hora extra a 100%."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Perguntas Cissa",
+      "metadata": {},
+      "conditions": "input.text.find('\\bferiado')",
+      "dialog_node": "node_3_1505759908696",
+      "previous_sibling": "node_2_1505759198794"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Estou sim, em que posso lhe ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Perguntas Cissa",
+      "metadata": {},
+      "conditions": "input.text.find('\\bvc esta ai') || input.text.find('\\bcade vc') || input.text.find('\\bvoce esta ai') || input.text.find('\\bvc ta ai') && input.text.find('\\bcissa ta ai') || @perguntasCissa:(ta ai)",
+      "dialog_node": "node_1_1509387050853",
+      "previous_sibling": "node_3_1505759908696"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "No meu mundo não comemoramos aniversário, mas o meu primeiro dia como assistente virtual na Central IT foi no mês de junho."
+          ]
+        }
+      },
+      "parent": "Perguntas Cissa",
+      "metadata": {},
+      "conditions": "input.text.find('\\bexiste desde') || input.text.find('\\bnasceu') || input.text.find('\\bfoi criada')",
+      "dialog_node": "node_1_1510070882480",
+      "previous_sibling": "node_1_1509387050853"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Até logo! Se precisar volte e poderei te ajudar."
+          ]
+        }
+      },
+      "parent": "Perguntas Cissa",
+      "metadata": {},
+      "conditions": "input.text.find('\\bbeiju') || input.text.find('\\bbeijo') || input.text.find('\\bbjos') || input.text.find('\\bbeijos') || input.text.find('\\bbjsr')",
+      "dialog_node": "node_5_1510076667259",
+      "previous_sibling": "node_2_1510072753136"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Você pode se informar sobre os processos da Central IT. Digite ajuda e confira os serviços disponíveis."
+          ]
+        }
+      },
+      "parent": "Perguntas Cissa",
+      "metadata": {},
+      "conditions": "input.text.find('\\bo que posso fazer aqui') || input.text.find('\\bajudar') || input.text.find('\\bme ajudar') || input.text.find('\\bposso saber')",
+      "dialog_node": "node_2_1510072753136",
+      "previous_sibling": "node_1_1510070882480"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Aprendi muitas coisas relacionadas a Central IT. Por favor digite ajuda e verifique os serviços disponíveis."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Perguntas Cissa",
+      "metadata": {},
+      "conditions": "input.text.find('\\baprendeu')",
+      "dialog_node": "node_1_1505759015877",
+      "previous_sibling": "node_1_1503516304687"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Eu moro no mundo virtual da CentralIT! Fui projetada pela empresa para ajudar você."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Perguntas Cissa",
+      "metadata": {},
+      "conditions": "input.text.find('\\bmora')",
+      "dialog_node": "node_1_1503516304687",
+      "previous_sibling": "node_8_1503513756971"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "No meu mundo virtual isso não é permitido. Mas se tiver outra dúvida, pode digitar."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Perguntas Cissa",
+      "metadata": {},
+      "conditions": "not input.text.find('\\bo que posso fazer aqui') && not input.text.find('\\bbeiju') && not input.text.find('\\bbeijo') && not input.text.find('\\bajudar') && not input.text.find('\\bbjos') && not input.text.find('\\bbeijos') && not input.text.find('\\bbjsr') && not input.text.find('\\bme ajudar') && not input.text.find('\\bposso saber') && not input.text.find('\\bexiste desde') && not input.text.find('\\bnasceu') && not input.text.find('\\bfoi criada') && not input.text.find('\\bmora') && not input.text.find('\\baprendeu') && not input.text.find('\\bsabe') && not input.text.find('\\bferiado') && not input.text.find('\\breajuste') && not input.text.find('\\baumento salarial') && not input.text.find('\\bajuste') && not input.text.find('\\baumento') && not input.text.find('\\bvc esta ai') && not input.text.find('\\bcade vc') && not input.text.find('\\bvc ta ai') && not input.text.find('\\bcissa ta ai') && not @perguntasCissa:(ta ai) && not input.text.find('\\bvoce esta ai')",
+      "dialog_node": "node_8_1503513756971"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sim, tudo bem! Estou aqui para ajudar a encontrar respostas para suas perguntas. Em que posso lhe ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1496344289675",
+      "metadata": {},
+      "conditions": "@badOrfine:(tudo bem) && not input.text.find('\\b[bB]eta?\\b')",
+      "dialog_node": "node_1_1506952510858",
+      "previous_sibling": "node_4_1506538053246"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<p>Por enquanto estou programada para te ajudar a encontrar as principais informações sobre os serviços oferecidos pelo Governo Federal.</p>"
+          ]
+        }
+      },
+      "parent": "node_4_1496344289675",
+      "metadata": {},
+      "conditions": "@badOrfine:(resolver tudo)",
+      "dialog_node": "node_1_1524331332734",
+      "previous_sibling": "node_1_1506952510858"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Beleza! Estou aqui para ajudar a encontrar respostas para suas perguntas. Em que posso lhe ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1496344289675",
+      "metadata": {},
+      "conditions": "@badOrfine:blz",
+      "dialog_node": "node_1_1506516102285",
+      "previous_sibling": "node_1_1505758380683"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sim, tudo bem! Estou aqui para ajudar a encontrar respostas para suas perguntas. Em que posso lhe ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1496344289675",
+      "metadata": {},
+      "conditions": "@badOrfine:(tudo bem) && input.text.find('\\b[bB]eta?\\b')",
+      "dialog_node": "node_1_1505758380683",
+      "previous_sibling": "node_4_1505231252884"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Olá! Muito bem! Em que posso ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1496344289675",
+      "metadata": {},
+      "conditions": "@badOrfine:(como vc esta)",
+      "dialog_node": "node_4_1506538053246",
+      "previous_sibling": "node_1_1506516102285"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Desculpe, mas meu nome é Beta, sou uma atendente virtual do estruturante INOVA. Em que posso ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1496344289675",
+      "metadata": {},
+      "conditions": "not input.text.find('\\b[bB]eta?\\b') && @saudacao:oi",
+      "dialog_node": "node_4_1505231252884"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Olá, bom dia! Me chamo Beta. Sou assistente virtual do Portal de Serviços. Em que posso ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1488804872765",
+      "metadata": {},
+      "conditions": "now().before('12:00:00') && not input.text.find('\\b[bB]eta?\\b')",
+      "dialog_node": "node_2_1505231003922",
+      "previous_sibling": "node_4_1501691521987"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Olá, bom dia! Sou assistente virtual do Portal de Serviços. Em que posso ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1488804872765",
+      "metadata": {},
+      "conditions": "now().before('12:00:00') && input.text.find('\\b[bB]eta?\\b')",
+      "dialog_node": "node_2_1501691447509",
+      "previous_sibling": "node_1_1547121927830"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Olá, boa tarde! Sou assistente virtual do Portal de Serviços. Em que posso ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1488804872765",
+      "metadata": {},
+      "conditions": "now().after('12:00:00') && now().before('18:00:00') && input.text.find('\\b[bB]eta?\\b')",
+      "dialog_node": "node_3_1501691497508",
+      "previous_sibling": "node_2_1501691447509"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Olá! É um prazer conversar com você. Em que posso ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1488804872765",
+      "metadata": {},
+      "conditions": "@saudacao:oi || input.text.find('[Bb][Ee][Tt][Aa]')",
+      "dialog_node": "node_1_1547121927830",
+      "previous_sibling": "node_1_1547124755462"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Olá, boa tarde! Me chamo Beta.  Sou assistente virtual do Portal de Serviços. Em que posso ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1488804872765",
+      "metadata": {},
+      "conditions": "now().after('12:00:00') && now().before('18:00:00') && not input.text.find('\\b[bB]eta?\\b')",
+      "dialog_node": "node_5_1505236544444",
+      "previous_sibling": "node_2_1505231003922"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Olá, boa noite! Me chamo Beta.  Sou assistente virtual do Portal de Serviços. Em que posso ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1488804872765",
+      "metadata": {},
+      "conditions": "now().after('18:00:00') && now().before('23:59:59') && not input.text.find('\\b[bB]eta?\\b')",
+      "dialog_node": "node_6_1505236746034",
+      "previous_sibling": "node_5_1505236544444"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Olá, boa noite! Sou assistente virtual do Portal de Serviços. Em que posso ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1488804872765",
+      "metadata": {},
+      "conditions": "now().after('18:00:00') && now().before('23:59:59') && input.text.find('\\b[bB]eta?\\b')",
+      "dialog_node": "node_4_1501691521987",
+      "previous_sibling": "node_3_1501691497508"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "teste"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1488804872765",
+      "metadata": {},
+      "conditions": "@saudacao:oi && @nome",
+      "dialog_node": "node_1_1547124755462"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1486399158223",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_4_1501606964979"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Pode digitar sua ajuda..."
+          ]
+        }
+      },
+      "parent": "Ajuda",
+      "metadata": {},
+      "dialog_node": "node_2_1521746328434",
+      "previous_sibling": "node_1_1521746326296"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Será um prazer lhe ajudar. Qual seria a sua dúvida?  \t<br>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Ajuda",
+      "metadata": {},
+      "dialog_node": "node_1_1521746326296"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Legal, estou muito bem também! Em que posso lhe ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1501692166789",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "input.text.find('\\b[oO]i*[e]*?\\b') || input.text.find('\\b[aA]lo*[u]*[w]*?\\b') || input.text.find('\\b[Ee][{a, }ai*[e]*[w]*?\\b')",
+      "dialog_node": "node_10_1501692177157"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<p>Que pena, gostaria de ter ajudado 100%. Como estou em fase de aprendizado, toda nova pergunta ou informação me ajuda a melhorar e, em breve, conseguirei te ajudar em todos os serviços.Mas não deixe de acesar nosso Portal de serviços, tenho certeza que encontrará o que procura</p><p>Este é um serviço do     <a href=\"https://servicos.gov.br\" target=\"_blank\">        Acesse o portal de serviços    </a></p>"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_1_1522331446611",
+      "metadata": {},
+      "conditions": "input.text.find('\\b[Ee]m parte?\\b')",
+      "dialog_node": "node_8_1522766847437",
+      "previous_sibling": "node_1_1524062962588"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$MSG_02"
+          ]
+        }
+      },
+      "parent": "node_1_1522331446611",
+      "metadata": {},
+      "dialog_node": "node_9_1522766861062",
+      "previous_sibling": "node_8_1522766847437"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_1_1522331446611",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1482349306960"
+      },
+      "conditions": "@nao",
+      "dialog_node": "node_1_1524062962588"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<p>Eu respondi sua pergunta hoje?</p> <p>     <p style=\"text-align: center\">         <button tabindex=\"0\" data-value-message=\"Sim\" type=\"button\" style=\"font-size: 10px\" class=\"data-event-click q-btn inline relative-position q-btn-item non-selectable q-btn-rectangle q-btn-outline q-focusable       q-hoverable text-primary q-btn-rounded\">             <div class=\"q-focus-helper\"></div>             <div class=\"q-btn-inner row col items-center justify-center\">                 <div>Sim</div>             </div>         </button>     </p>     <p style=\"text-align: center\">         <button tabindex=\"0\" data-value-message=\"Não\" type=\"button\" style=\"font-size: 10px\" class=\"data-event-click q-btn inline relative-position q-btn-item non-selectable q-btn-rectangle q-btn-outline q-focusable       q-hoverable text-primary q-btn-rounded\">             <div class=\"q-focus-helper\"></div>             <div class=\"q-btn-inner row col items-center justify-center\">                 <div>Não</div>             </div>         </button>     </p> </p>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1486399140569",
+      "context": {},
+      "metadata": {},
+      "dialog_node": "node_8_1501607173110",
+      "previous_sibling": "node_2_1524329510949"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Que pena. Desculpe. Vamos tentar de novo?  Você pode me explica melhor o que procura?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1486399140569",
+      "metadata": {},
+      "conditions": "@nao",
+      "dialog_node": "node_2_1524329510949",
+      "previous_sibling": "node_1_1524329261466"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Obrigada pela visita! Espero ter sido útil. Se precisar, volte e poderei te ajudar. Você verá como aprendi coisas novas. Até logo!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1486399140569",
+      "context": {
+        "finalizar_atendimento": true
+      },
+      "metadata": {},
+      "conditions": "@sim || #goodbye",
+      "dialog_node": "node_1_1524329261466"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {},
+      "conditions": "#systemsInformation",
+      "dialog_node": "node_255_1497638475311",
+      "previous_sibling": "DateTime"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas Basicas",
+      "output": {},
+      "metadata": {},
+      "dialog_node": "Perguntas Cissa",
+      "previous_sibling": "Difamação"
+    },
+    {
+      "type": "standard",
+      "title": "Finalizar atendimento",
+      "output": {},
+      "metadata": {},
+      "conditions": "#obrigado || #goodbye && intents[0].confidence>0.5",
+      "dialog_node": "Finalizar atendimento",
+      "previous_sibling": "node_1_1482349306960"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Vamos tentar mais uma vez? Você pode me explicar melhor o que procura?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#naoEncontrei",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1482349306960",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_255_1497638475311"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Legal, estou muito bem também! Em que posso lhe ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#hiThere",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1501692166789",
+      "digress_out": "allow_all",
+      "previous_sibling": "Finalizar atendimento"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Certo, tenho muitas respostas relacionadas a esse assunto. Poderia ser mais claro?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "intents[0].confidence>0.15 && intents[0].confidence<0.7",
+      "dialog_node": "node_1_1522955448448",
+      "previous_sibling": "node_1_1521207176703"
+    },
+    {
+      "type": "standard",
+      "title": "Posso falar com alguém ao telefone?",
+      "output": {
+        "text": {
+          "values": [
+            "Você poderia me explicar melhor sobre qual serviço deseja informação?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#talkTechnican",
+      "dialog_node": "node_1_1523711270037",
+      "previous_sibling": "node_9_1501005947177"
+    },
+    {
+      "type": "standard",
+      "title": "TEMPO - METERIOLOGIA",
+      "output": {
+        "text": {
+          "values": [
+            "tempo"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "method": "getMeteorology"
+      },
+      "metadata": {},
+      "dialog_node": "node_26_1511356938272",
+      "previous_sibling": "node_1_1523711270037"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Qual serviço você procura?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Procura",
+      "dialog_node": "node_1_1524162924572",
+      "previous_sibling": "node_8_1523903784277"
+    },
+    {
+      "type": "standard",
+      "title": "Caso não entenda",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#NaoEntendi",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1521207176703",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1524508269562"
+    },
+    {
+      "type": "standard",
+      "title": "Saudação",
+      "output": {},
+      "metadata": {},
+      "conditions": "#hiThere || @saudacao",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1488804872765",
+      "previous_sibling": "Perguntas Cissa"
+    },
+    {
+      "type": "standard",
+      "title": "Elogio",
+      "output": {
+        "text": {
+          "values": [
+            "$MSG_03"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#elogios && intents[0].confidence>0.8",
+      "dialog_node": "Elogio",
+      "previous_sibling": "node_26_1511356938272"
+    },
+    {
+      "type": "standard",
+      "title": "Difamação",
+      "output": {},
+      "metadata": {},
+      "conditions": "#difamacao",
+      "dialog_node": "Difamação",
+      "previous_sibling": "Elogio"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "$MSG_05"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#okay || #greetings",
+      "dialog_node": "node_8_1523903784277",
+      "previous_sibling": "node_1_1522955448448"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#dontKnow",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1522331446611",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1522328592535"
+    },
+    {
+      "type": "standard",
+      "title": "Ajuda",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#help && intents[0].confidence>0.8",
+      "digress_in": "does_not_return",
+      "dialog_node": "Ajuda",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1496344289675"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {},
+      "conditions": "#greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1496344289675",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1488804872765"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Ainda não consigo responder perguntas específicas. Para que eu possa te ajudar, descreva o serviço de forma resumida, por exemplo: ENEM, Passaporte, Serviço Militar ..."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1522762490217",
+      "previous_sibling": "node_1_1524162924572"
+    },
+    {
+      "type": "standard",
+      "title": "DateTime",
+      "output": {},
+      "metadata": {},
+      "conditions": "#dateTime && intents[0].confidence>0.8",
+      "dialog_node": "DateTime",
+      "previous_sibling": "Ajuda"
+    },
+    {
+      "type": "standard",
+      "title": "DontWant",
+      "output": {
+        "text": {
+          "values": [
+            "Ok, vamos lá. Você pode me explicar melhor o que procura?",
+            "Tudo bem, informe novamente o assunto que deseja procurar.",
+            "Certo, me informe novamente o que deseja saber."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#dontWant",
+      "dialog_node": "node_3_1522328592535",
+      "previous_sibling": "node_9_1501692166789"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "$MSG_07"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#okay",
+      "dialog_node": "node_1_1524508269562",
+      "previous_sibling": "node_1_1522331446611"
+    },
+    {
+      "type": "standard",
+      "title": "Inicio de conversa",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "conversation_start",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1501005947177",
+      "digress_out": "allow_all"
+    }
+  ],
+  "workspace_id": "a0cb2e62-d972-43df-93e4-7d3b11a501be",
+  "counterexamples": [
+    {
+      "text": "como faço pra acessar o pdde interativo"
+    },
+    {
+      "text": "dados invalidos"
+    },
+    {
+      "text": "etapas"
+    },
+    {
+      "text": "Eu procuro uma bolsa de estudo 100% grátis"
+    },
+    {
+      "text": "gostaria de mais informações"
+    },
+    {
+      "text": "local do enceja 2018"
+    },
+    {
+      "text": "Quem pode utilizar este serviço?"
+    },
+    {
+      "text": "Queria saber como tenho bebê e mama se posso levar"
+    },
+    {
+      "text": "voce tem modelo de estatuto de associação rural?"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
